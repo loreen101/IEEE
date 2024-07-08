@@ -1,0 +1,20 @@
+.toolbarDiv{
+    display: flex;
+    
+    
+}
+
+.tabs{
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.searchBar_div{
+    display: flex;
+    
+}
+
+input{
+    border-radius: 5px;
+}
