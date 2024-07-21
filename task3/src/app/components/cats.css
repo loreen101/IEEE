@@ -1,0 +1,32 @@
+.cats_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.cat_pic{
+    margin: 25px;
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgba(0, 0, 0, 0.53);  /* width, style, color  */
+    border-radius: 10px;
+    object-fit: cover;
+    filter: drop-shadow(0.2rem 0.4rem 0.5rem #000000cd);  /* horizontal offset, vertical offset, blur radius, color */
+    
+}
+
+.cat_name{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.heart_icon{
+    margin-left: 250px;
+}
